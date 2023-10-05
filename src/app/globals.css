@@ -16,7 +16,7 @@ h6 {
 }
 
 .h1 {
-  @apply text-[36px] xl: text-[64px] font-semibold;
+  @apply text-[36px] xl:text-[64px] font-semibold;
 }
 
 .h2 {
