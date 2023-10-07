@@ -18,7 +18,6 @@ export function SectionStats({ children }: SectionStatsProps) {
           </div>
         </div>
       </section>
-      <div className="h-[4000px]"></div>
     </>
   );
 }
