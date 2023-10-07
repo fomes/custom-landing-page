@@ -3,12 +3,12 @@ import { ReactNode } from "react";
 
 interface GridItemProps {
   children?: ReactNode;
-  icon: string;
+  icon?: string;
   title: string;
   text: string;
 }
 
-export function GridItem({ icon, title, text }: GridItemProps) {
+export function GridItem({ icon = "", title, text }: GridItemProps) {
   return (
     <div className="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center">
       <div className="mb-[15px]">

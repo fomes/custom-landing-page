@@ -34,7 +34,7 @@ export function SectionHero({ children }: SectionHeroProps) {
           </div>
 
           <div className="hero__img hidden xl:flex max-w-[814px] self-end">
-            <Image src={hero} alt="Doctor" />
+            <Image src={hero} alt="Doctor" priority />
           </div>
         </div>
       </div>
