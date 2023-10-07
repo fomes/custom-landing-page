@@ -3,11 +3,11 @@
 import { phoneDDI } from "@/utils/masks";
 import { ReactNode, useState } from "react";
 
-interface AppointmentSectionProps {
+interface SectionAppointmentProps {
   children?: ReactNode;
 }
 
-export function AppointmentSection({ children }: AppointmentSectionProps) {
+export function SectionAppointment({ children }: SectionAppointmentProps) {
   const [phone, setPhone] = useState("");
 
   return (
