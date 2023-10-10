@@ -79,3 +79,7 @@ body {
 .faq__item.open .faq__answer {
   @apply h-full;
 }
+
+p {
+  @apply px-4;
+}

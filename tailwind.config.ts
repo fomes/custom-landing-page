@@ -38,13 +38,10 @@ const config: Config = {
       },
       backgroundImage: {
         services: "url(../assets/img/services/bg.svg)",
-        testimonials: "url(../assets/img/testimonials/bg.svg",
-        departaments: "url(../assets/img/departaments/bg.svg",
-        quoteLeft: "url(../assets/icons/testimonials/quote-left.svg",
-        quoteRight: "url(../assets/icons/testimonials/quote-right.svg",
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        testimonials: "url(../assets/img/testimonials/bg.svg)",
+        departaments: "url(../assets/img/departaments/bg.svg)",
+        quoteLeft: "url(../assets/icons/testimonials/quote-left.svg)",
+        quoteRight: "url(../assets/icons/testimonials/quote-right.svg)",
       },
     },
   },
