@@ -17,10 +17,6 @@ body {
   }
 }
 
-p {
-  @apply px-4;
-}
-
 .h1 {
   @apply text-[36px] xl:text-[64px] font-semibold;
 }
@@ -101,26 +97,17 @@ p {
 }
 
 .dots {
-  display: flex;
-  padding: 10px 0;
-  justify-content: center;
+  @apply flex p-[10px] justify-center;
 }
 
 .dot {
-  border: none;
-  width: 10px;
-  height: 10px;
-  background: #c5c5c5;
-  border-radius: 50%;
-  margin: 0 5px;
-  padding: 5px;
-  cursor: pointer;
+  @apply border-none w-[10px] h-[10px] bg-[#c5c5c5] rounded-full p-[5px] cursor-pointer mt-0 mb-0 ml-[5px] mr-[5px];
 }
 
 .dot:focus {
-  outline: none;
+  @apply outline-none;
 }
 
 .dot.active {
-  background: #000;
+  @apply bg-[#000];
 }

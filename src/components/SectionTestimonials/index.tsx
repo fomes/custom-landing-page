@@ -6,7 +6,8 @@ import testImg from "@/assets/img/testimonials/img.png";
 import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react";
 import { SlideItem } from "../SlideItem";
-import { Arrow } from "../Arrow";
+import { SliderArrow } from "../SliderArrow";
+import { SlideDots } from "../SlideDots";
 
 interface SectionTestimonialsProps {
   children?: ReactNode;
@@ -55,49 +56,17 @@ export function SectionTestimonials({ children }: SectionTestimonialsProps) {
                     text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum odit consectetur, earum tempora, quo, soluta vitae amet alias expedita maxime ex debitis optio. Corporis, dolore rerum expedita culpa maxime vel?"
                   />
                 </div>
-                {/* {loaded && instanceRef.current && (
-                  <>
-                    <Arrow
-                      left
-                      onClick={(e: any) =>
-                        e.stopPropagation() || instanceRef.current?.prev()
-                      }
-                      disabled={currentSlide === 0}
-                    />
-
-                    <Arrow
-                      onClick={(e: any) =>
-                        e.stopPropagation() || instanceRef.current?.next()
-                      }
-                      disabled={
-                        currentSlide ===
-                        instanceRef.current.track.details.slides.length - 1
-                      }
-                    />
-                  </>
-                )} */}
+                <SliderArrow
+                  currentSlide={currentSlide}
+                  instanceRef={instanceRef}
+                  loaded={loaded}
+                />
               </div>
-              {loaded && instanceRef.current && (
-                <div className="dots">
-                  {[
-                    ...Array(
-                      instanceRef.current.track.details.slides.length
-                    ).keys(),
-                  ].map((idx) => {
-                    return (
-                      <button
-                        key={idx}
-                        onClick={() => {
-                          instanceRef.current?.moveToIdx(idx);
-                        }}
-                        className={
-                          "dot" + (currentSlide === idx ? " active" : "")
-                        }
-                      ></button>
-                    );
-                  })}
-                </div>
-              )}
+              <SlideDots
+                currentSlide={currentSlide}
+                instanceRef={instanceRef}
+                loaded={loaded}
+              />
             </div>
           </div>
         </div>

@@ -3,6 +3,7 @@ import { SectionAppointment } from "@/components/SectionAppointment";
 import { SectionHero } from "@/components/SectionHero";
 import { SectionServices } from "@/components/SectionServices";
 import { SectionStats } from "@/components/SectionStats";
+import { SectionTeam } from "@/components/SectionTeam";
 import { SectionTestimonials } from "@/components/SectionTestimonials";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <SectionServices />
       <SectionAppointment />
       <SectionTestimonials />
+      <SectionTeam />
       <div className="h-[400px]"></div>
     </>
   );
