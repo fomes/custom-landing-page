@@ -55,7 +55,7 @@ export function SectionTestimonials({ children }: SectionTestimonialsProps) {
                     text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum odit consectetur, earum tempora, quo, soluta vitae amet alias expedita maxime ex debitis optio. Corporis, dolore rerum expedita culpa maxime vel?"
                   />
                 </div>
-                {loaded && instanceRef.current && (
+                {/* {loaded && instanceRef.current && (
                   <>
                     <Arrow
                       left
@@ -75,8 +75,29 @@ export function SectionTestimonials({ children }: SectionTestimonialsProps) {
                       }
                     />
                   </>
-                )}
+                )} */}
               </div>
+              {loaded && instanceRef.current && (
+                <div className="dots">
+                  {[
+                    ...Array(
+                      instanceRef.current.track.details.slides.length
+                    ).keys(),
+                  ].map((idx) => {
+                    return (
+                      <button
+                        key={idx}
+                        onClick={() => {
+                          instanceRef.current?.moveToIdx(idx);
+                        }}
+                        className={
+                          "dot" + (currentSlide === idx ? " active" : "")
+                        }
+                      ></button>
+                    );
+                  })}
+                </div>
+              )}
             </div>
           </div>
         </div>
