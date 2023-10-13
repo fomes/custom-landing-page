@@ -17,6 +17,10 @@ body {
   }
 }
 
+p {
+  @apply px-4;
+}
+
 .h1 {
   @apply text-[36px] xl:text-[64px] font-semibold;
 }
@@ -80,6 +84,18 @@ body {
   @apply h-full;
 }
 
-p {
-  @apply px-4;
+.arrow {
+  @apply w-7 h-7 top-1/2 absolute cursor-pointer fill-primary translate-y-1/2;
+}
+
+.arrow--left {
+  @apply left-[5px];
+}
+
+.arrow--right {
+  @apply left-auto right-[5px];
+}
+
+.arrow--disabled {
+  @apply fill-[#ffffff80];
 }

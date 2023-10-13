@@ -14,7 +14,7 @@ export default function Home() {
       <SectionServices />
       <SectionAppointment />
       <SectionTestimonials />
-      <div className="h-[4000px]"></div>
+      <div className="h-[400px]"></div>
     </>
   );
 }
