@@ -1,3 +1,4 @@
+import { BlogSection } from "@/components/BlogSection";
 import { Header } from "@/components/Header";
 import { SectionAppointment } from "@/components/SectionAppointment";
 import { SectionDepartaments } from "@/components/SectionDepartaments";
@@ -20,6 +21,7 @@ export default function Home() {
       <SectionTeam />
       <SectionFaq />
       <SectionDepartaments />
+      <BlogSection />
       <div className="h-[200px]"></div>
     </>
   );
