@@ -1,5 +1,6 @@
 import { Header } from "@/components/Header";
 import { SectionAppointment } from "@/components/SectionAppointment";
+import { SectionDepartaments } from "@/components/SectionDepartaments";
 import { SectionFaq } from "@/components/SectionFaq";
 import { SectionHero } from "@/components/SectionHero";
 import { SectionServices } from "@/components/SectionServices";
@@ -18,6 +19,7 @@ export default function Home() {
       <SectionTestimonials />
       <SectionTeam />
       <SectionFaq />
+      <SectionDepartaments />
       <div className="h-[200px]"></div>
     </>
   );
