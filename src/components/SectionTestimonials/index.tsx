@@ -6,7 +6,6 @@ import testImg from "@/assets/img/testimonials/img.png";
 import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react";
 import { SlideItem } from "../SlideItem";
-import { SliderArrow } from "../SliderArrow";
 import { SlideDots } from "../SlideDots";
 
 interface SectionTestimonialsProps {
@@ -56,11 +55,6 @@ export function SectionTestimonials({ children }: SectionTestimonialsProps) {
                     text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum odit consectetur, earum tempora, quo, soluta vitae amet alias expedita maxime ex debitis optio. Corporis, dolore rerum expedita culpa maxime vel?"
                   />
                 </div>
-                <SliderArrow
-                  currentSlide={currentSlide}
-                  instanceRef={instanceRef}
-                  loaded={loaded}
-                />
               </div>
               <SlideDots
                 currentSlide={currentSlide}

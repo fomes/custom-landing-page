@@ -1,18 +1,18 @@
 import { ReactNode } from "react";
 import { Arrow } from "../Arrow";
 
-interface SliderArrowProps {
+interface SlideArrowProps {
   children?: ReactNode;
   loaded: boolean;
   instanceRef: any;
   currentSlide: number;
 }
 
-export function SliderArrow({
+export function SlideArrow({
   loaded,
   instanceRef,
   currentSlide,
-}: SliderArrowProps) {
+}: SlideArrowProps) {
   return (
     <>
       {loaded && instanceRef.current && (

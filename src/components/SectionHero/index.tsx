@@ -8,7 +8,7 @@ interface SectionHeroProps {
 
 export function SectionHero({ children }: SectionHeroProps) {
   return (
-    <section className="hero bg-grey py-12 xl:pt12 xl:pb-0 overflow-hidden">
+    <section className="hero bg-grey py-12 xl:pt12 xl:pb-0 overflow-hidden xl:px-8">
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between h-full">
           <div className="hero__text xl:w-[48%] text-center xl:text-left">

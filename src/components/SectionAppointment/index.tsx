@@ -1,13 +1,9 @@
 "use client";
 
 import { phoneDDI } from "@/utils/masks";
-import { ReactNode, useState } from "react";
+import { useState } from "react";
 
-interface SectionAppointmentProps {
-  children?: ReactNode;
-}
-
-export function SectionAppointment({ children }: SectionAppointmentProps) {
+export function SectionAppointment() {
   const [phone, setPhone] = useState("");
 
   return (
@@ -20,11 +16,7 @@ export function SectionAppointment({ children }: SectionAppointmentProps) {
 
         <form action="#" className="appointment__form flex flex-col gap-y-5">
           <div className="flex flex-col xl:flex-row gap-5">
-            <div className="select realtive flex items-center">
-              <div className="absolute right-4">
-                <i className="ri-arrow-down-s-line text-[26px] text-primary"></i>
-              </div>
-
+            <div className="select flex items-center">
               <select className="appearance-none outline-none w-full bg-transparent px-4">
                 <option value="1">Select Departament</option>
                 <option value="2">Departament 1</option>
@@ -34,10 +26,6 @@ export function SectionAppointment({ children }: SectionAppointmentProps) {
             </div>
 
             <div className="select realtive flex items-center">
-              <div className="absolute right-4">
-                <i className="ri-arrow-down-s-line text-[26px] text-primary"></i>
-              </div>
-
               <select className="appearance-none outline-none w-full bg-transparent px-4">
                 <option value="1">Select Doctor</option>
                 <option value="2">Dr Jon Doe</option>

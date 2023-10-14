@@ -15,9 +15,9 @@ export function GridItem({ icon = "", title, text }: GridItemProps) {
         <Image src={icon} alt="Icon" />
       </div>
 
-      <h3 className="h3 mb-[10px]">{title}</h3>
+      <h5 className="text-lg font-semibold mb-4">{title}</h5>
 
-      <p className="font-light leading-normal max-w-[300px]">{text}</p>
+      <p className="font-light leading-normal max-w-[300px] text-justify">{text}</p>
     </div>
   );
 }

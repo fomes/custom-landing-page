@@ -2,7 +2,6 @@
 
 import { useKeenSlider } from "keen-slider/react";
 import React, { ReactNode, useState } from "react";
-import { SliderArrow } from "../SliderArrow";
 import { SlideDots } from "../SlideDots";
 import { DoubleSlideItem } from "../DoubleSlideItem";
 
@@ -36,11 +35,6 @@ export function SectionTeam({ children }: SectionTeamProps) {
               <DoubleSlideItem />
               <DoubleSlideItem />
             </div>
-            <SliderArrow
-              currentSlide={currentSlide}
-              instanceRef={instanceRef}
-              loaded={loaded}
-            />
           </div>
           <SlideDots
             currentSlide={currentSlide}

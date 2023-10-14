@@ -20,7 +20,7 @@ export function Footer({ children }: FooterProps) {
               <Image src={logo} alt="" className="mb-[30px]" />
             </a>
 
-            <p className="mb-[20px] text-justify">
+            <p className="mb-[20px] text-justify xl:px-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Recusandae culpa sequi minus.
             </p>

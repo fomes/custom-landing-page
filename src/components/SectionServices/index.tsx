@@ -5,11 +5,7 @@ import icon2 from "@/assets/icons/services/icon-2.svg";
 import icon3 from "@/assets/icons/services/icon-3.svg";
 import icon4 from "@/assets/icons/services/icon-4.svg";
 
-interface SectionServicesProps {
-  children?: ReactNode;
-}
-
-export function SectionServices({ children }: SectionServicesProps) {
+export function SectionServices() {
   return (
     <section className="services mt-12">
       <div className="bg-services bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative h-[368px] flex items-center xl:items-start -z-10">

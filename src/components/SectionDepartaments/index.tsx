@@ -10,7 +10,7 @@ export function SectionDepartaments({ children }: SectionDepartamentsProps) {
       <div className="departaments__bg bg-departaments bg-cover xl:bg-auto bg-center bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] px-6 xl:px-0 py-12 xl:pt-[80px] xl:pb-[90px] relative min-h-[588px] flex items-center">
         <div className="departaments__container container max-auto">
           <div className="flex flex-col xl:flex-row gap-x-5">
-            <div className="xl:w-[310px] flex flex-col gap-y-[30px] xl:gap-y-[40px] font-medium uppercase text-center xl:text-left text-base text-[#9ab4b7] xl:pt-3 xl:text-[17px] mb-[50px] xl:mb-0">
+            <div className="xl:w-[310px] flex flex-col gap-y-[30px] xl:gap-y-[40px] font-medium uppercase text-center xl:text-left text-base text-[#9ab4b7] xl:pt-3 xl:text-[17px] mb-[50px] xl:mb-0 xl:px-8">
               <div className="cursor-pointer hover:text-accent-default transition-all duration-300">
                 Laboratory Analysis
               </div>

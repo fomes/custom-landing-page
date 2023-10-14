@@ -22,7 +22,7 @@ body {
 }
 
 .h2 {
-  @apply text-[30px] xl:text-[34px] font-semibold capitalize tracking-[0.44px];
+  @apply text-[30px] xl:text-[44px] font-semibold capitalize tracking-[0.44px];
 }
 
 .h3 {
@@ -70,7 +70,7 @@ body {
   @apply py-12 xl:py-[150px];
 }
 
-.swipper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets
   .swiper-pagination-bullet {
   @apply bg-accent-default;
