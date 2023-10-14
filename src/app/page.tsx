@@ -1,5 +1,6 @@
 import { BlogSection } from "@/components/BlogSection";
 import { BrandsSection } from "@/components/BrandsSection";
+import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { SectionAppointment } from "@/components/SectionAppointment";
 import { SectionDepartaments } from "@/components/SectionDepartaments";
@@ -26,7 +27,7 @@ export default function Home() {
       <BlogSection />
       <BrandsSection />
       <SectionNews />
-      <div className="h-[200px]"></div>
+      <Footer />
     </>
   );
 }
