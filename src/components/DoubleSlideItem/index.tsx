@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ReactNode } from "react";
 import doctor1 from "@/assets/img/team/doctor-1.png";
+import doctor2 from "@/assets/img/team/doctor-2.png";
 import { SocialIcon } from "../SocialIcon";
 
 interface DoubleSlideItemProps {
@@ -22,7 +23,7 @@ export function DoubleSlideItem({ children }: DoubleSlideItemProps) {
               <div className="font-medium uppercase tracking-[2.24px] text-[#9ab4b7] mb-[20px] ">
                 Pedatrician
               </div>
-              <p className="font-light mb-[26px] max-w-[320px]">
+              <p className="font-light mb-[26px] max-w-[320px] text-justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
                 tenetur totam reiciendis possimus accusantium ab, maxime
                 quibusdam! Perferendis dolores recusandae quia commodi possimus
@@ -41,7 +42,7 @@ export function DoubleSlideItem({ children }: DoubleSlideItemProps) {
         <div className="flex-1 flex flex-col xl:flex-row">
           <div className="flex flex-col xl:flex-row items-center gap-[30px]">
             <div className="flex-1">
-              <Image src={doctor1} alt="Doctor" />
+              <Image src={doctor2} alt="Doctor" />
             </div>
 
             <div className="flex-1 flex flex-col">
@@ -49,7 +50,7 @@ export function DoubleSlideItem({ children }: DoubleSlideItemProps) {
               <div className="font-medium uppercase tracking-[2.24px] text-[#9ab4b7] mb-[20px] ">
                 Pedatrician
               </div>
-              <p className="font-light mb-[26px] max-w-[320px]">
+              <p className="font-light mb-[26px] max-w-[320px] text-justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
                 tenetur totam reiciendis possimus accusantium ab, maxime
                 quibusdam! Perferendis dolores recusandae quia commodi possimus
