@@ -1,9 +1,11 @@
 import { BlogSection } from "@/components/BlogSection";
+import { BrandsSection } from "@/components/BrandsSection";
 import { Header } from "@/components/Header";
 import { SectionAppointment } from "@/components/SectionAppointment";
 import { SectionDepartaments } from "@/components/SectionDepartaments";
 import { SectionFaq } from "@/components/SectionFaq";
 import { SectionHero } from "@/components/SectionHero";
+import { SectionNews } from "@/components/SectionNews";
 import { SectionServices } from "@/components/SectionServices";
 import { SectionStats } from "@/components/SectionStats";
 import { SectionTeam } from "@/components/SectionTeam";
@@ -22,6 +24,8 @@ export default function Home() {
       <SectionFaq />
       <SectionDepartaments />
       <BlogSection />
+      <BrandsSection />
+      <SectionNews />
       <div className="h-[200px]"></div>
     </>
   );
