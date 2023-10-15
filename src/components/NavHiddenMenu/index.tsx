@@ -54,12 +54,12 @@ export function NavHiddenMenu({ children }: NavHiddenMenuProps) {
         </a>
 
         <ul className="flex flex-col gap-y-5">
-          <NavItem text="Home" />
-          <NavItem text="Doctors" />
-          <NavItem text="Departament" />
-          <NavItem text="Services" />
-          <NavItem text="Blog" />
-          <NavItem text="Contact" />
+          <NavItem text="Home" href="#home" />
+          <NavItem text="Doctors" href="#doctors" />
+          <NavItem text="Departaments" href="#departaments" />
+          <NavItem text="Services" href="#services" />
+          <NavItem text="Blog" href="#blog" />
+          <NavItem text="Contact" href="#contact" />
         </ul>
 
         <form action="#" className="relative flex gap-x-[10px]">

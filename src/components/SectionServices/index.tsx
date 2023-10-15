@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 import { GridItem } from "../GridItem";
 import icon1 from "@/assets/icons/services/icon-1.svg";
 import icon2 from "@/assets/icons/services/icon-2.svg";
@@ -7,7 +6,7 @@ import icon4 from "@/assets/icons/services/icon-4.svg";
 
 export function SectionServices() {
   return (
-    <section className="services mt-12">
+    <section className="services mt-12" id="services">
       <div className="bg-services bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative h-[368px] flex items-center xl:items-start -z-10">
         <div className="container mx-auto">
           <div className="services__top flex items-center flex-col xl:flex-row xl:mb-[60px]">

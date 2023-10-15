@@ -1,12 +1,7 @@
 import Image from "next/image";
-import { ReactNode } from "react";
 import hero from "@/assets/img/hero/img.png";
 
-interface SectionHeroProps {
-  children?: ReactNode;
-}
-
-export function SectionHero({ children }: SectionHeroProps) {
+export function SectionHero() {
   return (
     <section className="hero bg-grey py-12 xl:pt12 xl:pb-0 overflow-hidden xl:px-8">
       <div className="container mx-auto h-full">

@@ -1,12 +1,6 @@
-import { ReactNode } from "react";
-
-interface SectionDepartamentsProps {
-  children?: ReactNode;
-}
-
-export function SectionDepartaments({ children }: SectionDepartamentsProps) {
+export function SectionDepartaments() {
   return (
-    <section className="departaments section">
+    <section className="departaments section" id="departaments">
       <div className="departaments__bg bg-departaments bg-cover xl:bg-auto bg-center bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] px-6 xl:px-0 py-12 xl:pt-[80px] xl:pb-[90px] relative min-h-[588px] flex items-center">
         <div className="departaments__container container max-auto">
           <div className="flex flex-col xl:flex-row gap-x-5">

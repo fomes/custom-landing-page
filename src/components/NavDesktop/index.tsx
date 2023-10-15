@@ -1,20 +1,15 @@
-import { ReactNode } from "react";
 import { NavItem } from "../NavItem";
 
-interface NavDesktopProps {
-  children?: ReactNode;
-}
-
-export function NavDesktop({ children }: NavDesktopProps) {
+export function NavDesktop() {
   return (
     <nav className="bg-white absolute w-full left-0 -bottom-[86px] shadow-custom1 h-16 rounded-[10px] hidden lg:flex lg:items-center lg:justify-between lg:px-[50px]">
       <ul className="flex gap-x-4">
-        <NavItem text="Home" border="border-r" />
-        <NavItem text="Doctors" border="border-r" />
-        <NavItem text="Departament" border="border-r" />
-        <NavItem text="Services" border="border-r" />
-        <NavItem text="Blog" border="border-r" />
-        <NavItem text="Contact" />
+        <NavItem text="Home" border="border-r" href="#home" />
+        <NavItem text="Doctors" border="border-r" href="#doctors" />
+        <NavItem text="Departaments" border="border-r" href="#departaments" />
+        <NavItem text="Services" border="border-r" href="#services" />
+        <NavItem text="Blog" border="border-r" href="#blog" />
+        <NavItem text="Contact" href="#contact" />
       </ul>
 
       <form action="#" className="relative flex gap-x-2">

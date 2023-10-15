@@ -25,7 +25,7 @@ export function Footer({ children }: FooterProps) {
               Recusandae culpa sequi minus.
             </p>
 
-            <div className="flex flex-col gap-y-3 mb-10">
+            <div className="flex flex-col gap-y-3 mb-10" id="contact">
               <ContactItem
                 icon="ri-map-pin-fill"
                 text="123 Arling, Miola, NY"

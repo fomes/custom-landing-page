@@ -1,16 +1,11 @@
-import { ReactNode } from "react";
 import blog1 from "@/assets/img/blog/img-1.png";
 import blog2 from "@/assets/img/blog/img-2.png";
 import blog3 from "@/assets/img/blog/img-3.png";
 import { BlogPost } from "../BlogPost";
 
-interface BlogSectionProps {
-  children?: ReactNode;
-}
-
-export function BlogSection({ children }: BlogSectionProps) {
+export function BlogSection() {
   return (
-    <section className="blog">
+    <section className="blog" id="blog">
       <div className="container mx-auto">
         <h2 className="blog__title h2 mb-[50px] text-center xl:text-left">
           Our Recent Posts
