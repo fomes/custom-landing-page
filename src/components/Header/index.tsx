@@ -29,7 +29,7 @@ export function Header() {
 
           <div className="flex justify-center items-center gap-x-2 lg:justify-normal">
             <i className="ri-phone-fill text-2xl text-accent-default"></i>
-            <div className="text-secondary">"(+487) 389 872"</div>
+            <div className="text-secondary">(+487) 389 872</div>
           </div>
 
           <button className="btn btn-sm btn-outline w-[240px] lg:w-auto mx-auto lg:mx-0">

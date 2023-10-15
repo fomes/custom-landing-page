@@ -10,7 +10,7 @@ export function SectionFaq({ children }: SectionFaqProps) {
     <section className="faq">
       <div className="container mx-auto">
         <h2 className="faq__title h2 text-center mb-[50px]">
-          We've got answers
+          {"We've got answers"}
         </h2>
 
         <div className="max-w-5xl mx-auto">
