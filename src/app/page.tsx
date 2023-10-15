@@ -2,6 +2,7 @@ import { BlogSection } from "@/components/BlogSection";
 import { BrandsSection } from "@/components/BrandsSection";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import ScrollButton from "@/components/ScrollButton";
 import { SectionAppointment } from "@/components/SectionAppointment";
 import { SectionDepartaments } from "@/components/SectionDepartaments";
 import { SectionFaq } from "@/components/SectionFaq";
@@ -28,6 +29,7 @@ export default function Home() {
       <BrandsSection />
       <SectionNews />
       <Footer />
+      <ScrollButton />
     </>
   );
 }
