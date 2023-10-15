@@ -27,7 +27,9 @@ export function SectionNews({ children }: SectionNewsProps) {
           <form action="" className="flex-1">
             <div className="flex flex-col md:flex-row relative gap-y-4">
               <input
+                name="email"
                 type="text"
+                autoComplete="on"
                 placeholder="Your email address"
                 className="rounded-full w-full h-[66px] bg-transparent border-2 border-white outline-none pl-[30px] placeholder:text-white focus:text-white"
               />

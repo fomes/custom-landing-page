@@ -17,7 +17,10 @@ export function SectionAppointment() {
         <form action="#" className="appointment__form flex flex-col gap-y-5">
           <div className="flex flex-col xl:flex-row gap-5">
             <div className="select flex items-center">
-              <select className="appearance-none outline-none w-full bg-transparent px-4">
+              <select
+                className="appearance-none outline-none w-full bg-transparent px-4"
+                name="departament"
+              >
                 <option value="1">Select Departament</option>
                 <option value="2">Departament 1</option>
                 <option value="3">Departament 2</option>
@@ -26,7 +29,10 @@ export function SectionAppointment() {
             </div>
 
             <div className="select realtive flex items-center">
-              <select className="appearance-none outline-none w-full bg-transparent px-4">
+              <select
+                className="appearance-none outline-none w-full bg-transparent px-4"
+                name="doctor"
+              >
                 <option value="1">Select Doctor</option>
                 <option value="2">Dr Jon Doe</option>
                 <option value="3">Dr Jone Doe</option>
@@ -36,19 +42,27 @@ export function SectionAppointment() {
           </div>
 
           <div className="flex flex-col xl:flex-row gap-5">
-            <input type="text" className="input" placeholder="Full name" />
             <input
+              name="full-name"
+              type="text"
+              className="input"
+              placeholder="Full name"
+              autoComplete="on"
+            />
+            <input
+              name="phone"
               type="text"
               className="input"
               placeholder="Phone Number"
+              autoComplete="on"
               value={phoneDDI(phone)}
               onChange={(e) => setPhone(e.target.value)}
             />
           </div>
 
           <div className="flex flex-col xl:flex-row gap-5">
-            <input type="date" className="input" />
-            <input type="time" className="input" />
+            <input name="date" type="date" className="input" />
+            <input name="time" type="time" className="input" />
           </div>
 
           <button className="btn btn-lg btn-accent self-start" type="submit">

@@ -68,6 +68,7 @@ export function NavHiddenMenu({ children }: NavHiddenMenuProps) {
           </label>
 
           <input
+            name="search"
             type="text"
             id="mnav-search-input"
             placeholder="Search..."

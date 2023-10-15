@@ -21,8 +21,10 @@ export function NavDesktop() {
         </label>
 
         <input
+          name="search"
           type="text"
           id="search-input"
+          autoComplete="on"
           placeholder="Search..."
           className="outline-none w-[100px] focus:w-[180px] focus:border-b-2 focus:border-accent-default placeholder:italic placeholder:text-base transition-all duration-150"
         />
