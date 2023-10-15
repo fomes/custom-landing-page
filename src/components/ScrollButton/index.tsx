@@ -27,7 +27,7 @@ export function ScrollButton() {
 
   return (
     <button
-      className="bg-blue-400 hover:bg-blue-500 transition-all duration-300 fixed w-12 h-12 right-8 bottom-8 text-5xl z-10 cursor-pointer leading-10 rounded-[3px] shadow-[0_0_0_4px_rgba(0,0,0,0.3)]"
+      className="bg-accent-default hover:bg-accent-secondary transition-all duration-300 fixed w-12 h-12 right-8 bottom-8 text-5xl z-10 cursor-pointer leading-10 rounded-[3px] shadow-[0_0_0_4px_rgba(0,0,0,0.3)]"
       style={{ display: visible ? "inline" : "none" }}
       onClick={scrollToTop}
     >
