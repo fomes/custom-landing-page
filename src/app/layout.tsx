@@ -21,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css"
